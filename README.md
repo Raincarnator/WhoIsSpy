@@ -2,9 +2,9 @@
 
 > 适用于 [Mirai](https://github.com/mamoe/mirai) 的谁是卧底小游戏插件
 
-### [Github Project]()
-### [Release]()
-### [MiraiForum]()
+### [Github Project](https://github.com/Mitr-yuzr/WhoIsSpy)
+### [Release](https://github.com/Mitr-yuzr/WhoIsSpy/releases/tag/1.0)
+### [MiraiForum](https://mirai.mamoe.net/topic/1580/whoisspy-%E8%B0%81%E6%98%AF%E5%8D%A7%E5%BA%95%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%8F%92%E4%BB%B6)
 
 ## 说明
 
@@ -20,7 +20,7 @@
 
 请确保`SpyData.yml`词库内存在词条，否则无法正常开始游戏。  
 
-可下载 [Release]() 中附带的`Data.zip`(从网络中收集的约500个词的词库)，并将其解压到mcl根目录下。
+可下载 [Release](https://github.com/Mitr-yuzr/WhoIsSpy/releases/tag/1.0) 中附带的`data.zip`(从网络中收集的约500个词的词库)，并将其解压到mcl根目录下。
 
 ### 游戏规则
 
