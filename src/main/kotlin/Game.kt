@@ -169,6 +169,7 @@ class Game(private val group: Group) : CompletableJob by SupervisorJob() {
                     playerJob[player.id] = 3
                     player.sendMessage(Config.whiteMessage)
                 }
+                delay(Config.delay)
             }
         }
         players.shuffle()

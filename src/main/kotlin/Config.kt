@@ -94,4 +94,7 @@ object Config : AutoSavePluginConfig("SpyConfig") {
 
     @ValueDescription("强制进入特殊模式(不通知)的概率，可填0-100，对应0%-100%的概率，为0时就是禁用特殊模式 。特殊模式: 所有玩家均为白板，只剩下3名玩家时结束。该模式也可通过\"切换模式 114514\"进入。")
     var specialModeOdds by value(5)
+
+    @ValueDescription("私聊发送消息间隔时间 (防被封)")
+    var delay by value(1000L)
 }

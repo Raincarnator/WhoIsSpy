@@ -3,7 +3,7 @@
 > 适用于 [Mirai](https://github.com/mamoe/mirai) 的谁是卧底小游戏插件
 
 ### [Github Project](https://github.com/Mitr-yuzr/WhoIsSpy)
-### [Release](https://github.com/Mitr-yuzr/WhoIsSpy/releases/tag/1.0)
+### [Release](https://github.com/Mitr-yuzr/WhoIsSpy/releases/tag/1.1)
 ### [MiraiForum](https://mirai.mamoe.net/topic/1580/whoisspy-%E8%B0%81%E6%98%AF%E5%8D%A7%E5%BA%95%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%8F%92%E4%BB%B6)
 
 ## 说明
@@ -164,6 +164,8 @@ voteMessage: "投票阶段！请输入\"投票 编号\"进行投票，所有人�
 rule: 标准模式下，每个玩家会拿到自己的词条，其中卧底的词条与其他人的不一样！每个玩家需要轮流描述自己的词，描述不能重复，若出现自己的词则直接判输。之后进行投票选出卧底。票数最多的玩家将会被淘汰。一直重复下去，直到卧底被淘汰或卧底的人数占剩余玩家总数大于等于三分之一。
 # 强制进入特殊模式(不通知)的概率，可填0-100，对应0%-100%的概率，为0时就是禁用特殊模式 。特殊模式: 所有玩家均为白板，只剩下3名玩家时结束。该模式也可通过"切换模式 114514"进入。
 specialModeOdds: 5
+# 私聊发送消息间隔时间 (防被封)
+delay: 1000
 ```
 
 ## 声明
